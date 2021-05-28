@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.navigation{
+    margin: 0 auto;
+    width: 1000px;
+    border-bottom: 2px solid #e2e2e2;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #FF0000;
+    font-size: 20px;
+    transition: .2s all ease;
+}
+a:hover{
+    transform: scale(1.1);
+}
+.vacancies{
+    margin-bottom: 10px;
+    margin-left: 41%;
+}
+.registration input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2.5px solid black;
+}
+.registration input:hover{
+    border: 2.5px solid blue;
+}
+.registration button{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: .2s all ease;
+}
+.registration button:hover{
+    transform: scale(1.1);
+}
+.login input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2.5px solid black;
+}
+.login input:hover{
+    border: 2.5px solid blue;
+}
+.login button{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: .2s all ease;
+}
+.login button:hover{
+    transform: scale(1.1);
+}
+.currentVacancy{
+    width: 350px;
+    border: 2px solid #8ad4ff;
+}
+.uniqueCurrentVacancy{
+    width: 350px;
+    border: 2px solid #74f7cc;
+}
+.grid-row{
+    padding: 10px;
+    text-align: left;
+}
+.grid-row h2{
+    padding: 10px;
+    background-color: #8ad4ff;
+}
+.unique-grid-row{
+    padding: 10px;
+    text-align: left;
+}
+.unique-grid-row h2{
+    padding: 10px;
+    background-color: #74f7cc;
+}
